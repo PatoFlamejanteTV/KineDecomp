@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/item_layout"
+    android:layout_width="@dimen/mediabrowser_item_layout_width"
+    android:layout_height="@dimen/mediabrowser_item_layout_height">
+    <include
+        android:id="@+id/folder_layout"
+        android:visibility="visible"
+        layout="@layout/panel_media_browser_item_folder"/>
+    <include
+        android:id="@+id/special_layout"
+        android:visibility="visible"
+        layout="@layout/panel_media_browser_item_special"/>
+    <include
+        android:id="@+id/media_layout"
+        android:visibility="gone"
+        layout="@layout/panel_media_browser_item_media"/>
+</FrameLayout>

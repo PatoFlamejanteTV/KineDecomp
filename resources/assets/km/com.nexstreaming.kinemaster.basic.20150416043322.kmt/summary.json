@@ -1,0 +1,24 @@
+{
+    "themes": [
+        {
+            "package": "com.nexstreaming.kinemaster.basic.20150416043322.kmt", 
+            "optional_dependencies": [
+                "basic_preview.ce2fe2ce32cdacf37f351821ac8a4e4010db92f7.mp4"
+            ], 
+            "strings": {
+                "name": {
+                    "en-us": "@string/theme_basic"
+                }
+            }, 
+            "version": "20150416043322", 
+            "dependencies": [
+                "theme_thumb_basic.2363dfa9edfa0aa63622c58d1ca0ef52ece7e8f5.png"
+            ], 
+            "package_date": 735704, 
+            "id": "com.nexstreaming.kinemaster.basic", 
+            "preview": "basic_preview.ce2fe2ce32cdacf37f351821ac8a4e4010db92f7.mp4", 
+            "thumbnail": "theme_thumb_basic.2363dfa9edfa0aa63622c58d1ca0ef52ece7e8f5.png"
+        }
+    ], 
+    "effects": []
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d tracks</item>
+        <item quantity="one">%d track</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">This beta version will expire in %d days</item>
+        <item quantity="one">This beta version will expire in %d day</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">(%d days remaining)</item>
+        <item quantity="one">(%d day remaining)</item>
+    </plurals>
+</resources>

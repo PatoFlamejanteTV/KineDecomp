@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_max_action_buttons">5</integer>
+    <integer name="font_toolbar_title_scale">0</integer>
+    <integer name="cpanel_gravity">17</integer>
+    <integer name="mediabrowser_item_columns">6</integer>
+    <integer name="optionbar_page_width">69</integer>
+    <integer name="project_gallery_title_maxLines">4</integer>
+    <integer name="themebrowser_item_columns">3</integer>
+    <integer name="mediabrowser_gridview_horizontal_spacing_int">2</integer>
+    <integer name="timeline3_collapsedVisibleSecondaryCount">1</integer>
+</resources>

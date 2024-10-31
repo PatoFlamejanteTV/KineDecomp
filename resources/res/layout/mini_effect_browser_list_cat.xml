@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/cat_icon"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/fx_folder"
+        android:scaleType="centerInside"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:textSize="@dimen/option_menu_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/optmenu_item_text_color"
+        android:gravity="center_vertical"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/expand_indicator"
+        android:layout_toRightOf="@+id/cat_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignWithParentIfMissing="true"/>
+    <ImageView
+        android:id="@+id/expand_indicator"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/opt_expandable_indicator"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.34"/>
+</RelativeLayout>

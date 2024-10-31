@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_section_dev">
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_more_resolutions"
+            android:key="export_extras"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_more_resolutions_on"
+            android:summaryOff="@string/pref_more_resolutions_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_show_timeline_content_weight"
+            android:key="show_timeline_content_weight"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_disable_iab_mcc_checker"
+            android:key="disable_iab_mcc_checker"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_set_special_price_notification_time"
+            android:key="@string/pref_set_special_price_notification_time"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Diagnostic Information"
+            android:key="diagnostic_info"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Set MixPanel Name"
+            android:key="set_mixpanel_name"/>
+    </PreferenceCategory>
+</PreferenceScreen>

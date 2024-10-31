@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="font_toolbar_title_scale">2</integer>
+    <integer name="cpanel_gravity">1</integer>
+    <integer name="mediabrowser_item_columns">6</integer>
+    <integer name="optionbar_page_width">69</integer>
+    <integer name="project_gallery_title_maxLines">3</integer>
+    <integer name="themebrowser_item_columns">3</integer>
+</resources>

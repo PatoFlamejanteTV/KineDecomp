@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d首曲目</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">测试版将在于%d天后过期</item>
+    </plurals>
+</resources>

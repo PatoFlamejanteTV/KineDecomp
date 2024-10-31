@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="frag_account_info_free_btn_holder_marginTop">4dp</dimen>
+    <dimen name="frag_account_info_marginLeftAndRight">33dp</dimen>
+    <dimen name="product_view_best_badge_margin_left">1dp</dimen>
+    <dimen name="product_view_best_height">171dp</dimen>
+    <dimen name="product_view_best_padding_top">20dp</dimen>
+    <dimen name="product_view_buy_button_height">31dp</dimen>
+    <dimen name="product_view_buy_button_width">123dp</dimen>
+    <dimen name="product_view_margin_left">2dp</dimen>
+    <dimen name="product_view_margin_right">2dp</dimen>
+    <dimen name="product_view_margin_top">1.5dp</dimen>
+    <dimen name="product_view_normal_height">154dp</dimen>
+    <dimen name="product_view_normal_width">175dp</dimen>
+    <dimen name="product_view_padding_bottom">5dp</dimen>
+    <dimen name="product_view_padding_top">11dp</dimen>
+    <dimen name="product_view_price_text_height">47dp</dimen>
+    <dimen name="product_view_price_text_width">119dp</dimen>
+    <dimen name="product_view_title_text_size">10dp</dimen>
+    <dimen name="subscription_subtitle_text_size">12dp</dimen>
+    <dimen name="subscription_title_text_size">25dp</dimen>
+</resources>

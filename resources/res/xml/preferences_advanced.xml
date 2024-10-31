@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_section_advanced">
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_mediabrowser_hierarchy"
+            android:key="pref_mbrowser_hierarchy"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_mediabrowser_hierarchy_on"
+            android:summaryOff="@string/pref_mediabrowser_hierarchy_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_export_diagnostics"
+            android:key="export_diagnostics"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_export_diagnostics_on"
+            android:summaryOff="@string/pref_export_diagnostics_off"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+KineMaster Manifest/0100
+summary.json=140ff06468ab13915de16e889cd23c93f642d52e
+[published-effects]
+com.nexstreaming.kinemaster.basic.accent=327d0b4d2b0b6e67e2047473625a8dbc6f70fe47
+com.nexstreaming.kinemaster.basic.ending=9a1345fc8493e32a994f0d28f2348251e962b02c
+com.nexstreaming.kinemaster.basic.middle=8c9f1c87a00741a2886d8817e100aec80fe5217e
+com.nexstreaming.kinemaster.basic.opening=2749cacdd4abadbc933d16a58d0620c0cce810e4
+com.nexstreaming.kinemaster.basic=60e868e3d235c5d2c3a058b773e50c9e6835fa3a
+com.nexstreaming.kinemaster.basic.transition=6751e6a596344172892407f7ab8f6f256a7e30f3
+[internal-dependencies]
+[external-dependencies]
+theme_thumb_basic.2363dfa9edfa0aa63622c58d1ca0ef52ece7e8f5.png=2363dfa9edfa0aa63622c58d1ca0ef52ece7e8f5
+[opt-external-dependencies]
+basic_preview.ce2fe2ce32cdacf37f351821ac8a4e4010db92f7.mp4=ce2fe2ce32cdacf37f351821ac8a4e4010db92f7

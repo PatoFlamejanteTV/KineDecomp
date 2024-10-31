@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <scale
+        android:duration="@integer/project_edit_intro_anim_time"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="@fraction/project_edit_intro_anim_preview_start_scale"
+        android:toXScale="1"
+        android:fromYScale="@fraction/project_edit_intro_anim_preview_start_scale"
+        android:toYScale="1"/>
+</set>

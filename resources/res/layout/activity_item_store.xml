@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:nex="http://schemas.android.com/apk/res-auto"
+    android:background="@color/new_project_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.nexstreaming.kinemaster.ui.widget.Toolbar
+        android:id="@+id/toolbar_store"
+        android:background="@color/new_project_background"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:splitMotionEvents="false"
+        nex:logoRes="@drawable/asset_store_icon"
+        nex:toolbarButtonRes="@drawable/normal_asset_store_archive"/>
+    <View
+        android:id="@+id/toolbar_line"
+        android:background="@color/km_red"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar_store"/>
+    <WebView
+        android:id="@+id/webView"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_line"/>
+    <FrameLayout
+        android:id="@+id/fragmentHolder"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignTop="@+id/toolbar_line"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:progressDrawable="@drawable/progress_bar"
+        android:layout_below="@+id/toolbar_store"
+        style="?android:attr/progressBarStyleHorizontal"/>
+</RelativeLayout>

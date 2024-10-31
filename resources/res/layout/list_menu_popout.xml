@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/popup_bg_arrow_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.nexstreaming.kinemaster.ui.widget.RoundCornerListView
+        android:id="@+id/listMenuContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@color/popout_menu_divider"
+        android:dividerHeight="0.667dp"
+        app:cornerRadius="3dp"/>
+</FrameLayout>

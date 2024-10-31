@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/amediabrowser_sel_for_alb"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/subcat_text_height">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <TextView
+            android:textSize="@dimen/amediabrowser_album_text"
+            android:textColor="@color/n2_amediabrowser_text_color"
+            android:id="@+id/AlbumName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"/>
+        <TextView
+            android:textSize="@dimen/amediabrowser_album_tracks"
+            android:textColor="@color/n2_amediabrowser_text_color"
+            android:id="@+id/NoOfTracks"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/AlbumName"/>
+    </LinearLayout>
+</RelativeLayout>

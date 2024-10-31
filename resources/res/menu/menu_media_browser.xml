@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/icon_media_browser_popup_all"
+        android:id="@+id/media_browser_menu_all"
+        android:orderInCategory="100"
+        android:title="@string/mediabrowser_catagory_all"/>
+    <item
+        android:icon="@drawable/icon_media_browser_popup_images"
+        android:id="@+id/media_browser_menu_images"
+        android:orderInCategory="200"
+        android:title="@string/mediabrowser_catagory_image"/>
+    <item
+        android:icon="@drawable/icon_media_browser_popup_video"
+        android:id="@+id/media_browser_menu_video"
+        android:orderInCategory="300"
+        android:title="@string/mediabrowser_catagory_video"/>
+</menu>

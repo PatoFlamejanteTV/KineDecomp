@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:nex="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.nexstreaming.kinemaster.ui.widget.Toolbar
+        android:id="@+id/toolbar_settings"
+        android:background="@color/new_project_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_activity_toolbar_height"
+        android:splitMotionEvents="false"
+        nex:title="@string/settings_toolbar_title"
+        nex:logoRes="@drawable/icon_settings_title_logo"
+        nex:titleMode="navigation"
+        nex:subtitleMode="navigation"
+        nex:exitMode="none"/>
+    <View
+        android:id="@+id/toolbar_line"
+        android:background="@color/km_red"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar_settings"/>
+    <FrameLayout
+        android:id="@+id/container"
+        android:background="@color/new_project_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_line"/>
+</RelativeLayout>

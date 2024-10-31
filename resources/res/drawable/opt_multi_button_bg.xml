@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="2dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/new_project_text_color_disabled"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/chromakey_opt_bg_press"/>
+            <corners android:radius="2dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/km_red"/>
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/chromakey_opt_bg_press"/>
+            <corners android:radius="2dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/km_red"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/chromakey_opt_bg_press"/>
+            <corners android:radius="2dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/km_red"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="2dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/chromakey_opt_text_normal"/>
+        </shape>
+    </item>
+</selector>

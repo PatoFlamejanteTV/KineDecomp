@@ -1,0 +1,80 @@
+package com.google.api.client.auth.oauth2;
+
+import com.facebook.AccessToken;
+import com.google.api.client.json.GenericJson;
+import com.google.api.client.util.Key;
+import com.google.api.client.util.Preconditions;
+
+/* loaded from: classes.dex */
+public class TokenResponse extends GenericJson {
+
+    @Key(a = "access_token")
+    private String accessToken;
+
+    @Key(a = AccessToken.EXPIRES_IN_KEY)
+    private Long expiresInSeconds;
+
+    @Key(a = "refresh_token")
+    private String refreshToken;
+
+    @Key
+    private String scope;
+
+    @Key(a = "token_type")
+    private String tokenType;
+
+    public final String getAccessToken() {
+        return this.accessToken;
+    }
+
+    public TokenResponse setAccessToken(String str) {
+        this.accessToken = (String) Preconditions.a(str);
+        return this;
+    }
+
+    public final String getTokenType() {
+        return this.tokenType;
+    }
+
+    public TokenResponse setTokenType(String str) {
+        this.tokenType = (String) Preconditions.a(str);
+        return this;
+    }
+
+    public final Long getExpiresInSeconds() {
+        return this.expiresInSeconds;
+    }
+
+    public TokenResponse setExpiresInSeconds(Long l) {
+        this.expiresInSeconds = l;
+        return this;
+    }
+
+    public final String getRefreshToken() {
+        return this.refreshToken;
+    }
+
+    public TokenResponse setRefreshToken(String str) {
+        this.refreshToken = str;
+        return this;
+    }
+
+    public final String getScope() {
+        return this.scope;
+    }
+
+    public TokenResponse setScope(String str) {
+        this.scope = str;
+        return this;
+    }
+
+    @Override // com.google.api.client.json.GenericJson, com.google.api.client.util.GenericData
+    public TokenResponse set(String str, Object obj) {
+        return (TokenResponse) super.set(str, obj);
+    }
+
+    @Override // com.google.api.client.json.GenericJson, com.google.api.client.util.GenericData, java.util.AbstractMap
+    public TokenResponse clone() {
+        return (TokenResponse) super.clone();
+    }
+}

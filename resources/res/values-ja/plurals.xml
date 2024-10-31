@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%dトラック</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">このお試し版の有効期限は %d 日で終了します</item>
+    </plurals>
+</resources>

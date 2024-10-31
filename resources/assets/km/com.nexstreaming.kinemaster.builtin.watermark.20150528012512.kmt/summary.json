@@ -1,0 +1,38 @@
+{
+    "themes": [], 
+    "effects": [
+        {
+            "package": "com.nexstreaming.kinemaster.builtin.watermark.20150528012512.kmt", 
+            "optional_dependencies": [], 
+            "strings": {}, 
+            "version": "20150528012512", 
+            "dependencies": [], 
+            "package_date": 735746, 
+            "id": "com.nexstreaming.kinemaster.builtin.watermark.mov", 
+            "preview": null, 
+            "thumbnail": null
+        }, 
+        {
+            "package": "com.nexstreaming.kinemaster.builtin.watermark.20150528012512.kmt", 
+            "optional_dependencies": [], 
+            "strings": {}, 
+            "version": "20150528012512", 
+            "dependencies": [], 
+            "package_date": 735746, 
+            "id": "com.nexstreaming.kinemaster.builtin.watermark.std", 
+            "preview": null, 
+            "thumbnail": null
+        }, 
+        {
+            "package": "com.nexstreaming.kinemaster.builtin.watermark.20150528012512.kmt", 
+            "optional_dependencies": [], 
+            "strings": {}, 
+            "version": "20150528012512", 
+            "dependencies": [], 
+            "package_date": 735746, 
+            "id": "com.nexstreaming.kinemaster.builtin.watermark.up", 
+            "preview": null, 
+            "thumbnail": null
+        }
+    ]
+}

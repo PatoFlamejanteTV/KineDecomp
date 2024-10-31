@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/mediabrowser_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/layout_media_browser"/>
+    <ViewStub
+        android:id="@+id/stub_media_detail"
+        android:layout="@layout/layout_media_detail"
+        android:inflatedId="@+id/mediabrowser_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

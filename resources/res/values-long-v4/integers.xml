@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="font_toolbar_title_scale">2</integer>
+    <integer name="fullscreen_hint_size">20</integer>
+</resources>

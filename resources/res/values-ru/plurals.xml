@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d дорожек</item>
+        <item quantity="one">%d дорожка</item>
+        <item quantity="few">%d дорожки</item>
+        <item quantity="many">%d дорожек</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">Это бета-версия истекает через %d дней</item>
+        <item quantity="one">Это бета-версия истекает через %d день</item>
+        <item quantity="few">Это бета-версия истекает через %d дня</item>
+        <item quantity="many">Это бета-версия истекает через %d дней</item>
+    </plurals>
+</resources>

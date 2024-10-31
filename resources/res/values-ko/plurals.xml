@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d 트랙</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">본 베타버전은 %d일동안 사용하실 수 있습니다.</item>
+    </plurals>
+</resources>

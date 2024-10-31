@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="project_edit_intro_anim_preview_start_scale">70%</fraction>
+    <fraction name="project_edit_intro_anim_start_frac">80%</fraction>
+    <fraction name="project_edit_intro_anim_start_frac_neg">-80%</fraction>
+</resources>

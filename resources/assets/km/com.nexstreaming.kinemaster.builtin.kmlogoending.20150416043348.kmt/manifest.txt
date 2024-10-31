@@ -1,0 +1,10 @@
+KineMaster Manifest/0100
+summary.json=c5c5b6b5261e8d95bb7afeb85bb6356d6ad91044
+[published-effects]
+com.nexstreaming.kinemaster.builtin.kmlogoending=65359c55e28b5fee2f05fbef44fc9162971bde4b
+[internal-dependencies]
+r0=77e670edda440065f2304af1a6c3b37efa8f9024
+r1=dbd43f05d71af2973686ddf9a47d669485c65d13
+r2=429aa2b4a871a9de78080470d615c471f3203822
+[external-dependencies]
+[opt-external-dependencies]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/amedia_select_bg_for_alb"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/amedia_select_bg_for_alb"/>
+    <item
+        android:drawable="@drawable/amedia_select_bg_for_alb"
+        android:state_activated="true"/>
+    <item
+        android:state_enabled="false"
+        android:drawable="@android:color/transparent"/>
+    <item
+        android:state_pressed="false"
+        android:drawable="@android:color/transparent"/>
+    <item android:drawable="@android:color/transparent"/>
+</selector>

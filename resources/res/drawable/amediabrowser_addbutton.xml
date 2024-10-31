@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/audio_browser_add_press"
+        android:state_activated="true"/>
+    <item
+        android:drawable="@drawable/audio_browser_add_nor"
+        android:state_activated="true"/>
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="@dimen/songslist_button_size"
+                android:width="@dimen/songslist_button_size"/>
+            <solid android:color="#00000000"/>
+        </shape>
+    </item>
+</selector>

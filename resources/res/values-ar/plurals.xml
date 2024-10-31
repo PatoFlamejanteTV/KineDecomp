@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d مسارات</item>
+        <item quantity="zero">%d مسار</item>
+        <item quantity="one">%d مسار</item>
+        <item quantity="two">%d مسار</item>
+        <item quantity="few">%d مسارات</item>
+        <item quantity="many">%d مسارات</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">هذه النسخة التجريبية سوف تنتهي في %d أيام</item>
+        <item quantity="zero">هذه النسخة التجريبية سوف تنتهي في %d يوم</item>
+        <item quantity="one">هذه النسخة التجريبية سوف تنتهي في %d يوم</item>
+        <item quantity="two">هذه النسخة التجريبية سوف تنتهي في %d يوم</item>
+        <item quantity="few">هذه النسخة التجريبية سوف تنتهي في %d أيام</item>
+        <item quantity="many">هذه النسخة التجريبية سوف تنتهي في %d أيام</item>
+    </plurals>
+</resources>

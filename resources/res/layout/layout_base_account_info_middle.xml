@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/frag_account_info_text_size_s"
+        android:textColor="@color/settings_extratext"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_account_specal_price"
+        android:background="@color/setting_fragment_category_background"
+        android:paddingLeft="@dimen/frag_account_info_marginLeftAndRight"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sub_special_price_info"/>
+</LinearLayout>

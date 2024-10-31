@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/img_effect_browser_category_folder_sel"
+        android:state_activated="true"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/img_effect_browser_category_folder_sel"/>
+    <item
+        android:drawable="@drawable/img_effect_browser_category_folder_nor"
+        android:state_activated="false"/>
+</selector>

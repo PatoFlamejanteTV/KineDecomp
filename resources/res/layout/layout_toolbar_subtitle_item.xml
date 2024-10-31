@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:n="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView_toolbar_subtitle_icon"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_toolbar_subtitle"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16dp"
+        android:textColor="@color/km_red"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/textView_toolbar_subtitle_text"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=""
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/imageView_toolbar_subtitle_icon"/>
+    <com.nexstreaming.app.general.util.IconView
+        android:id="@+id/iconView_toolbar_subtitle_img"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/imageView_toolbar_subtitle_icon"
+        android:layout_centerVertical="true"
+        n:iconColor="@color/volume_env_icon_color_pressed"/>
+</RelativeLayout>

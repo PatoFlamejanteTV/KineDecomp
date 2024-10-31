@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:n="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/option_menu_list_header"/>
+    <com.nexstreaming.kinemaster.ui.projectedit.Slider
+        android:layout_gravity="center"
+        android:id="@+id/speedControlSlider"
+        android:paddingTop="@dimen/slider_paddingTop"
+        android:paddingBottom="@dimen/slider_paddingBottom"
+        android:layout_width="@dimen/slider_width"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/slider_margin_top"
+        android:layout_marginBottom="@dimen/slider_margin_bottom"
+        n:orientation="vertical"
+        n:thumbRadius="@dimen/slider_thumb_radius"
+        n:trackSize="@dimen/slider_track_size"
+        n:thumbColor="@color/slider_dark_thumb"
+        n:trackDefaultColor="@color/slider_dark_track_base"
+        n:trackActiveColor="@color/slider_dark_track_active"
+        n:defaultValue="100"
+        n:value="100"
+        n:minValue="25"
+        n:maxValue="150"
+        n:centerMark="true"
+        n:valueStyle="rate"
+        n:thumbTextSize="@dimen/slider_thumb_text_size"
+        n:snapSize="@dimen/slider_snap_size"
+        n:snapAt="100"/>
+</LinearLayout>
