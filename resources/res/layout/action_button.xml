@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/pedit_button_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/action_button_image_view"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/action_icon_seek_to_next"
+        android:tint="@color/pedit_icon_color"
+        android:layout_centerInParent="true"
+        android:tintMode="src_in"/>
+    <ImageView
+        android:id="@+id/action_button_more_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:src="@drawable/ic_actionbar_cue"
+        android:tint="@color/pedit_icon_color"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:tintMode="src_in"/>
+</RelativeLayout>

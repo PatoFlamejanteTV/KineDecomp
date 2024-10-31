@@ -1,0 +1,29 @@
+{
+  "ratios":["16:9","9:16","1:1"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.strips",
+  "label": {
+    "en": "Strips",
+    "ar": "شرائط",
+    "ko": "스트립",
+    "pt": "Listras",
+    "ja": "ストリップ",
+    "fr": "Bandes",
+    "zh-CN": "地带",
+    "zh-TW": "帶狀旋轉",
+    "zh-HK": "帶狀旋轉",
+    "de": "Streifen",
+    "ru": "Полосы",
+    "es": "Franjas",
+    "hi":"स्ट्रिप्स",
+    "id" :"Bergaris-garis",
+    "it":"Strisce",
+    "ms":"Strips",
+    "th":"แถบ",
+    "tr":"Şeritler",
+    "vi":"Dải"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

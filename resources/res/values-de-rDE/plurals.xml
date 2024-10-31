@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d Spuren</item>
+        <item quantity="one">%d Spur</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">Für dieses Projekt fehlen Audiodateien.</item>
+        <item quantity="one">Eine Audiodatei fehlt für dieses Projekt bei %s.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">Für dieses Projekt fehlen Bilddateien.</item>
+        <item quantity="one">Eine Bilddatei fehlt für dieses Projekt bei %s.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">Es empfiehlt sich, sie vor dem Export zu ersetzen.</item>
+        <item quantity="one">Es empfiehlt sich, ihn/sie/es vor dem Export zu ersetzen.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">Für dieses Projekt fehlen Videodateien.</item>
+        <item quantity="one">Eine Videodatei fehlt für dieses Projekt bei %s.</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">Abonnement (%d days remaining)</item>
+        <item quantity="one">Abonnement (%d day remaining)</item>
+    </plurals>
+</resources>

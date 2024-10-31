@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d tracks</item>
+        <item quantity="one">%d track</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">This beta version will expire in %d days</item>
+        <item quantity="one">This beta version will expire in %d day</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">Audio files are missing from this project.</item>
+        <item quantity="one">An Audio file is missing from this project at %s.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">Image files are missing from this project.</item>
+        <item quantity="one">An Image file is missing from this project at %s.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">It is recommended that you replace them before exporting.</item>
+        <item quantity="one">It is recommended that you replace it before exporting.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">Video files are missing from this project.</item>
+        <item quantity="one">A Video file is missing from this project at %s.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">KineMaster Premium User (%d days remaining)</item>
+        <item quantity="one">KineMaster Premium User (%d day remaining)</item>
+    </plurals>
+</resources>

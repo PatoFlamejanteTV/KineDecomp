@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/option_menu_list_header"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/optpanel_notice_text"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/transition_no_space"/>
+    </ScrollView>
+</LinearLayout>

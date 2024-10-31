@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/option_menu_list_header"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/optionMenuList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/optmenu_background_color"
+            android:divider="@color/pedit_background_color"
+            android:dividerHeight="1dp"
+            android:choiceMode="singleChoice"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/duration_spinner_topline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+</LinearLayout>

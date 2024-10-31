@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <GridView
+            android:gravity="center"
+            android:id="@+id/top_share_targets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/share_popup_gridview_tb_margin"
+            android:layout_marginBottom="@dimen/share_popup_gridview_tb_margin"
+            android:stretchMode="columnWidth"
+            android:numColumns="5"/>
+        <View
+            android:background="@color/dialog_button_border"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/top_share_targets"/>
+    </RelativeLayout>
+    <GridView
+        android:gravity="center"
+        android:id="@+id/bottom_share_targets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/share_popup_gridview_tb_margin"
+        android:layout_marginBottom="@dimen/share_popup_gridview_tb_margin"
+        android:stretchMode="columnWidth"
+        android:numColumns="5"/>
+</LinearLayout>

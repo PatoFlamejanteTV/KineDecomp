@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d дорожек</item>
+        <item quantity="one">%d дорожка</item>
+        <item quantity="few">%d дорожки</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Пароль недостаточно надежен. Используйте как минимум %1$d символов и сочетание букв и цифр</item>
+        <item quantity="one">Пароль недостаточно надежен. Используйте как минимум %1$d символ и сочетание букв и цифр</item>
+        <item quantity="few">Пароль недостаточно надежен. Используйте как минимум %1$d символа и сочетание букв и цифр</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">В проекте отсутствуют файлы аудио.</item>
+        <item quantity="one">В проекте отсутствует файл аудио в %s.</item>
+        <item quantity="few">Audio files are missing from this project.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">В проекте отсутствуют файлы изображений.</item>
+        <item quantity="one">В проекте отсутствует файл изображения в %s.</item>
+        <item quantity="few">Image files are missing from this project.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">Рекомендуется заменить их перед экспортом.</item>
+        <item quantity="one">Рекомендуется заменить его перед экспортом.</item>
+        <item quantity="few">It is recommended that you replace them before exporting.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">В проекте отсутствуют файлы видео.</item>
+        <item quantity="one">В проекте отсутствует файл видео в %s.</item>
+        <item quantity="few">Video files are missing from this project.</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">Премиум Пользователь KineMaster (%d days remaining)</item>
+        <item quantity="one">Премиум Пользователь KineMaster (%d day remaining)</item>
+        <item quantity="few">Премиум Пользователь KineMaster (%d days remaining)</item>
+    </plurals>
+</resources>

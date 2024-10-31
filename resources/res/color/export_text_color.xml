@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:color="@color/export_quality_text_normal"/>
+    <item
+        android:state_pressed="true"
+        android:color="@color/export_quality_text_press"/>
+    <item
+        android:color="@color/export_quality_text_press"
+        android:state_activated="true"/>
+    <item
+        android:state_selected="true"
+        android:color="@color/export_quality_text_press"/>
+    <item android:color="@color/km_white"/>
+</selector>

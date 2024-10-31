@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/palette_tab_focused_bg"
+        android:state_activated="false"/>
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/palette_tab_selected_and_focused_bg"
+        android:state_activated="true"/>
+    <item
+        android:drawable="@drawable/palette_tab_selected_bg"
+        android:state_activated="true"/>
+    <item android:drawable="@drawable/palette_tab_normal_bg"/>
+</selector>

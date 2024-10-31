@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_materialPreferenceIconSpaceReserved">true</bool>
+    <bool name="optbar_show_undo_redo">true</bool>
+    <bool name="secondary_item_editor_vertical">false</bool>
+    <bool name="timeline_grip_hidden">false</bool>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="250"
+        android:valueFrom="@dimen/pedit_expand_option_panel_width"
+        android:valueTo="0px"
+        android:valueType="floatType"
+        android:propertyName="translationX"/>
+</set>

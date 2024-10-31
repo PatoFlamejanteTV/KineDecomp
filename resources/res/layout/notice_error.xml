@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noticeErrorView"
+    android:background="@color/notice_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/errorViewClose"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_margin="6dp"
+        android:src="@drawable/btn_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/optmenu_header_tab_icon_nor"
+        android:gravity="center"
+        android:id="@+id/noticeErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorIcon"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <ImageView
+        android:id="@+id/errorIcon"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toTopOf="@+id/noticeErrorMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/ic_error_network"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

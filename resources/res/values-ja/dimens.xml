@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asset_bro_child_item_text_size">8dp</dimen>
+    <dimen name="empty_project_font_size">13dp</dimen>
+    <dimen name="exported_font_size">10dp</dimen>
+    <dimen name="project_assistant_font_size">13dp</dimen>
+</resources>

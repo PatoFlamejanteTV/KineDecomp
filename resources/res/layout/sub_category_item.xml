@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/asset_store_sub_category_text_size"
+        android:textColor="@color/text_color_white_red"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/subCategoryTitle"
+        android:background="@drawable/store_sub_cat_selector"
+        android:paddingLeft="@dimen/asset_store_sub_category_item_title_padding_left"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/asset_store_sub_category_height"/>
+</LinearLayout>

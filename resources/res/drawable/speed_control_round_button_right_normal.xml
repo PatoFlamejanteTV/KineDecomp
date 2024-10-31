@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:topRightRadius="@dimen/speed_control_outside_border_radius"
+                android:bottomRightRadius="@dimen/speed_control_outside_border_radius"/>
+            <solid android:color="@color/almost_black"/>
+        </shape>
+    </item>
+    <item
+        android:left="0dp"
+        android:top="@dimen/speed_control_content_spread"
+        android:right="@dimen/speed_control_content_spread"
+        android:bottom="@dimen/speed_control_content_spread">
+        <shape android:shape="rectangle">
+            <corners
+                android:topRightRadius="@dimen/speed_control_content_border_radius"
+                android:bottomRightRadius="@dimen/speed_control_content_border_radius"/>
+            <solid android:color="@color/dark_four"/>
+        </shape>
+    </item>
+</layer-list>

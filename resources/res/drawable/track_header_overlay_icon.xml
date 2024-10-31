@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+    <item
+        android:state_enabled="true"
+        android:state_selected="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/trackicon_overlay_normal"/>
+    <item
+        android:state_enabled="true"
+        android:state_selected="false"
+        android:state_pressed="true"
+        android:drawable="@drawable/trackicon_overlay_selected"/>
+    <item
+        android:state_enabled="true"
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/trackicon_overlay_selected"/>
+    <item
+        android:state_enabled="false"
+        android:state_selected="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/trackicon_overlay_normal"/>
+</selector>

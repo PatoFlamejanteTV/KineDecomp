@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d faixas</item>
+        <item quantity="one">%d faixa</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">Estão faltando arquivos de áudio neste projeto.</item>
+        <item quantity="one">Está faltando um arquivo de áudio neste projeto em %s.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">Estão faltando arquivos de imagem neste projeto.</item>
+        <item quantity="one">Está faltando um arquivo de imagem neste projeto em %s.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">É recomendado substituí-los antes de exportar.</item>
+        <item quantity="one">É recomendado substituí-lo antes de exportar.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">Estão faltando arquivos de vídeo neste projeto.</item>
+        <item quantity="one">Está faltando um arquivo de vídeo neste projeto em %s.</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">Usuário Premium KineMaster (%d days remaining)</item>
+        <item quantity="one">Usuário Premium KineMaster (%d day remaining)</item>
+    </plurals>
+</resources>

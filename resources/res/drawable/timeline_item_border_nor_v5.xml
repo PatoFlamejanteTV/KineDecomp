@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:dither="true"
+            android:shape="rectangle">
+            <size
+                android:height="49px"
+                android:width="45px"/>
+            <corners android:radius="9px"/>
+            <stroke
+                android:width="7px"
+                android:color="@color/km_slate_dark"/>
+        </shape>
+    </item>
+    <item
+        android:left="1px"
+        android:top="1px"
+        android:right="1px"
+        android:bottom="1px">
+        <shape
+            android:dither="true"
+            android:shape="rectangle">
+            <size
+                android:height="49px"
+                android:width="45px"/>
+            <corners android:radius="9px"/>
+            <stroke
+                android:width="5px"
+                android:color="@color/km_slate_dark"/>
+        </shape>
+    </item>
+</layer-list>

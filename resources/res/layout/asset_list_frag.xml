@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/subCategoryList"
+        android:background="#ff303640"
+        android:visibility="gone"
+        android:nextFocusRight="@+id/assetGridView"
+        android:layout_width="@dimen/asset_store_sub_category_width"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/store_sub_cat_selector"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:choiceMode="singleChoice"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/assetGridView"
+            android:padding="5dp"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="com.nexstreaming.kinemaster.ui.store.view.NestedGridLayoutManager"
+            app:spanCount="4"/>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progress"
+            android:visibility="visible"
+            android:layout_width="@dimen/common_progress_bar_size"
+            android:layout_height="@dimen/common_progress_bar_size"/>
+    </FrameLayout>
+</LinearLayout>

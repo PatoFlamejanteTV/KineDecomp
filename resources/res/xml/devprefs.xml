@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_section_dev">
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Run Codec Capability Check"
+            android:key="@string/key_pref_codec_capa_check"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Edit Codec Limits"
+            android:key="@string/key_pref_codec_limits"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_more_resolutions"
+            android:key="@string/key_pref_export_extras"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_more_resolutions_on"
+            android:summaryOff="@string/pref_more_resolutions_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_show_timeline_content_weight"
+            android:key="@string/key_pref_show_timeline_content_weight"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <ListPreference
+            android:persistent="true"
+            android:entries="@array/asms_server_items"
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_server_url"
+            android:key="@string/key_pref_asms_server_url"
+            android:summary="@string/pref_asms_product_server"
+            android:defaultValue="https://api-kinemaster-assetstore.kinemasters.com"
+            android:dialogTitle="@string/pref_server_url"
+            android:negativeButtonText="@string/button_cancel"
+            android:entryValues="@array/asms_server_values"/>
+        <ListPreference
+            android:persistent="true"
+            android:entries="@array/asms_edition_items"
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_asms_edition"
+            android:key="@string/key_pref_asms_edition"
+            android:summary="@string/pref_asms_android"
+            android:dialogTitle="@string/pref_asms_edition"
+            android:negativeButtonText="@string/button_cancel"
+            android:entryValues="@array/asms_edition_values"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_disable_iab_mcc_checker"
+            android:key="@string/key_pref_disable_iab_mcc_checker"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_set_special_price_notification_time"
+            android:key="@string/key_pref_set_special_price_notification_time"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Diagnostic Information"
+            android:key="@string/key_pref_diagnostic_info"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Set Test Name"
+            android:key="@string/key_pref_set_test_name"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="Import Device Capability Profile"
+            android:key="@string/key_pref_import_device_profile"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_remote_config"
+            android:key="@string/key_pref_remote_config"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Asset Test Settings">
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_show_demo_content_only"
+            android:key="@string/key_pref_show_demo_content_only"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_asset_consumed"
+            android:key="@string/key_pref_asset_consumed"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_asset_dev_mode"
+            android:key="@string/key_pref_asset_dev_mode"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <ListPreference
+            android:persistent="true"
+            android:entries="@array/asset_env_items"
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_asset_env"
+            android:key="@string/key_pref_asset_env"
+            android:summary="@string/key_pref_asset_env_prod"
+            android:defaultValue="production"
+            android:dialogTitle="@string/pref_asset_env"
+            android:negativeButtonText="@string/button_cancel"
+            android:entryValues="@array/asset_env_values"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="@string/pref_change_asset_scope"
+            android:key="@string/key_pref_asset_level"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_asset_update_check"
+            android:key="@string/key_pref_asset_update_check_always"
+            android:defaultValue="false"
+            android:summaryOn="Always"
+            android:summaryOff="Once per 24h"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Review Test Settings">
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="리뷰 팝업 테스트 모드 (10초 뒤마다 보여지기)"
+            android:key="@string/key_pref_rate_test_mode"
+            android:defaultValue="false"
+            android:summaryOn="ON"
+            android:summaryOff="OFF"/>
+        <Preference
+            android:layout="@layout/layout_preference_list_item"
+            android:title="export 성공 횟수"
+            android:key="@string/key_pref_rate_export_success_count"
+            android:summary="count: 0"/>
+    </PreferenceCategory>
+</PreferenceScreen>

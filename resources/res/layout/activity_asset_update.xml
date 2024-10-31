@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/activity_asset_update_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:background="@drawable/background_popup"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="16dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/dialog_message_text"
+            android:textColor="@color/dialog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asset_update_confirm_update_progress"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:max="100"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d首曲目</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">此專案缺少音頻文件。</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">此專案缺少圖像文件。</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">建議您在導出之前替換它們。</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">此專案缺少視頻文件。</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">巧影高級版用戶（剩餘時間%d天）</item>
+    </plurals>
+</resources>

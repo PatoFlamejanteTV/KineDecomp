@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="optbar_show_undo_redo">false</bool>
+    <bool name="secondary_item_editor_vertical">true</bool>
+    <bool name="tablet">false</bool>
+    <bool name="timeline_expandable">true</bool>
+    <bool name="timeline_grip_hidden">true</bool>
+</resources>

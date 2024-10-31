@@ -1,0 +1,43 @@
+{
+  "assetLevel":"5",
+  "assetName": {
+    "en": "Fun Transitions",
+    "ar": "تحويلات مرحة",
+    "ko": "재미있는 장면전환 효과",
+    "pt": "Transições divertidas",
+    "ja": "おもしろい転換",
+    "fr": "Transitions Sympas",
+    "zh-CN": "有趣的转场",
+    "zh-TW": "有趣的轉場",
+    "zh-HK": "有趣的轉場",
+    "de": "Fun Übergänge",
+    "ru": "Развлекательные переходы",
+    "es": "Transiciones divertidas",
+    "hi":"मज़ेदार ट्रांसिशन्स",
+    "id":"Transisi Menarik",
+    "it":"Transizioni Divertenti",
+    "ms":"Tansasi Menarik",
+    "th":"เปลี่ยนแบบสนุก",
+    "tr":"Eğlenceli Geçişler",
+    "vi":"Chuyển đoạn Thú vị"
+  },
+  "format": "com.kinemaster.assetpackage",
+  "itemRoots": [
+    "transition/1v1.circlewipe",
+    "transition/1v1.heartwipe",
+    "transition/1v1.manycircles",
+    "transition/1v1.starwipe",
+    "transition/9v16.circlewipe",
+    "transition/9v16.heartwipe",
+    "transition/9v16.manycircles",
+    "transition/9v16.starwipe",
+    "transition/16v9.circlewipe",
+    "transition/16v9.heartwipe",
+    "transition/16v9.manycircles",
+    "transition/16v9.starwipe",
+    "transition/knockaside"
+  ],
+  "minVersionCode": 2,
+  "packageContentVersion": 1,
+  "targetVersionCode": 4
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nexstreaming.kinemaster.ui.projectedit.timeline.TransitionRangeView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/range"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:imgSrc="@drawable/bg_transition_range"
+    app:paddingHorizontal="@dimen/timeline3_primaryTimelineHeight">
+    <com.nexstreaming.kinemaster.ui.projectedit.timeline.TransitionIconView
+        android:layout_gravity="center"
+        android:id="@+id/icon"
+        android:background="@drawable/bg_timeline_transition_icon"
+        android:layout_width="18.5dp"
+        android:layout_height="18.5dp"
+        android:src="@drawable/ic_timeline_transition"/>
+</com.nexstreaming.kinemaster.ui.projectedit.timeline.TransitionRangeView>

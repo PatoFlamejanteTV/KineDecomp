@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:nex="http://schemas.nexstreaming.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:n="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/option_menu_list_header"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/gridView_color_effects"
+            android:scrollbars="vertical"
+            android:fadingEdgeLength="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollingCache="true"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:numColumns="2"
+            android:fadeScrollbars="true"
+            android:requiresFadingEdge="vertical"/>
+    </RelativeLayout>
+</LinearLayout>

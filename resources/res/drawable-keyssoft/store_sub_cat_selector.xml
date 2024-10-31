@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@color/store_sub_category_pre"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/store_sub_category_pre"/>
+    <item
+        android:drawable="@color/store_sub_category_pre"
+        android:state_activated="true"/>
+    <item android:drawable="@color/store_sub_category_nor"/>
+</selector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/deleteBorderView"
+        android:background="@drawable/get_started_media_delete_item_border"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+    <ImageView
+        android:id="@+id/imageview_Selected_Item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/deleteView"
+        android:padding="2dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:src="@drawable/icon_delete_media_tray"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

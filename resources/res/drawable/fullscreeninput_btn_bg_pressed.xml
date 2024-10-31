@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/fullscreeninput_btn_radius"/>
+    <size
+        android:height="@dimen/fullscreeninput_btn_height"
+        android:width="@dimen/fullscreeninput_btn_width"/>
+    <gradient
+        android:startColor="@color/fullscreen_input_btn_pressed"
+        android:endColor="@color/fullscreen_input_btn_pressed"
+        android:angle="0"/>
+    <stroke
+        android:width="@dimen/fullscreeninput_btn_strike"
+        android:color="#ffffffff"/>
+</shape>

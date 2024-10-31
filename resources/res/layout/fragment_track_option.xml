@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/fragment_track_option_0"
+    android:background="@color/optmenu_background_color"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/option_menu_list_header"/>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+            <ImageView
+                android:layout_width="23.5dp"
+                android:layout_height="23.5dp"
+                android:src="@drawable/ic_optmenu_track_visibility"/>
+            <TextView
+                android:textSize="12.5dp"
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Visibility"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_weight="1"/>
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:showText="false"/>
+        </LinearLayout>
+        <View
+            android:background="@color/pedit_background_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+    <View
+        android:background="@drawable/pedit_bg_rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/option_menu_list_header"/>
+    <TextView
+        android:textSize="16dp"
+        android:textColor="@color/optpanel_notice_text"
+        android:id="@+id/busy_reason"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/file_prep_busy"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/almost_black"/>
+        </shape>
+    </item>
+    <item
+        android:left="@dimen/speed_control_content_spread"
+        android:top="@dimen/speed_control_content_spread"
+        android:right="@dimen/speed_control_content_spread"
+        android:bottom="@dimen/speed_control_content_spread">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/dark_four"/>
+        </shape>
+    </item>
+</layer-list>

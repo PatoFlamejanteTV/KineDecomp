@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/btn_background_darkgrey_red"
+        android:padding="@dimen/pedit_expand_option_panel_list_view_footer_layout_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5.7dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5.7dp">
+        <ImageView
+            android:id="@+id/storeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/asset_store_icon"/>
+        <TextView
+            android:textSize="@dimen/pedit_expand_option_panel_list_view_footer_text_size"
+            android:textColor="@color/km_white"
+            android:ellipsize="end"
+            android:id="@+id/getMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/asset_get_more"
+            android:maxLines="1"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d track</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">รหัสผ่านไม่แข็งแรงพอ ใช้อักขระอย่างน้อย %1$d ตัว และมีทั้งตัวอักษรและตัวเลข</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">มีไฟล์ออดิโอหายไปจากโปรเจกต์นี้ที่ %s</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">มีไฟล์ภาพหายไปจากโปรเจกต์นี้ที่ %s</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">เราแนะนำให้ทำการแทนที่มัน ก่อนจะทำการเอกซ์พอร์ท</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">มีไฟล์วิดีโอหายไปจากโปรเจกต์นี้ที่ %s</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">ผู้ใช้ KineMaster Premium (เหลืออีก %d วัน)</item>
+    </plurals>
+</resources>
