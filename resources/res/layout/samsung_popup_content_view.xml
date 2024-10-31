@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:background="@color/dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/dialog_message_text"
+        android:textColor="@color/dialog_text"
+        android:id="@+id/message"
+        android:paddingLeft="36dp"
+        android:paddingTop="20dp"
+        android:paddingRight="36dp"
+        android:paddingBottom="20dp"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/btn_media_detail_favorite_pre"
+        android:state_activated="false"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/btn_media_detail_favorite_chk_pressed"
+        android:state_activated="true"/>
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/btn_media_detail_favorite_sel"
+        android:state_activated="false"/>
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/btn_media_detail_favorite_chk_selected"
+        android:state_activated="true"/>
+    <item
+        android:drawable="@drawable/btn_media_detail_favorite_chk"
+        android:state_activated="true"/>
+    <item android:drawable="@drawable/btn_media_detail_favorite_nor"/>
+</selector>

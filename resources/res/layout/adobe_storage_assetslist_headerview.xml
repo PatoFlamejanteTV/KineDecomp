@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/adobe_csdk_assetbrowser_list_view_item_decoration_height">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+        android:textSize="@dimen/adobe_csdk_storage_assetslist_header_txt_size"
+        android:textColor="@color/adobe_csdk_asset_browser_light_text"
+        android:gravity="center_vertical"
+        android:id="@+id/adobe_csdk_storage_assetslist_group_header_view"
+        android:background="@color/adobe_csdk_background_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/adobe_csdk_assetbrowser_list_view_image_left_padding"/>
+</LinearLayout>

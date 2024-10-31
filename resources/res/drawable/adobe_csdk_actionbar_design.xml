@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/adobe_csdk_actionbar_border"/>
+        </shape>
+    </item>
+    <item android:bottom="@dimen/adobe_csdk_actionBar_bottom_border_size">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/adobe_csdk_actionbar_background"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/adobe_csdk_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/adobe_csdk_asset_libraryitemsview_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.adobe.creativesdk.foundation.internal.twowayview.widget.TwoWayView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adobe_csdk_asset_library_design_items_twowayview"
+            android:paddingLeft="@dimen/adobe_csdk_library_items_view_padding"
+            android:paddingRight="@dimen/adobe_csdk_library_items_view_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <RelativeLayout
+        android:id="@+id/adobe_search_empty_layout"
+        android:background="@color/adobe_csdk_background_color"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/adobe_search_empty_state_margin"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/adobe_search_empty_state_icon"
+            android:layout_width="@dimen/adobe_csdk_storage_empty_state_view_files_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/adobe_emptystate_search"
+            android:layout_above="@+id/adobe_search_empty_state_message"
+            android:layout_centerHorizontal="true"/>
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+            android:textSize="@dimen/adobe_csdk_storage_empty_state_view_textSize"
+            android:textColor="@color/adobe_csdk_asset_browser_light_text"
+            android:id="@+id/adobe_search_empty_state_message"
+            android:paddingTop="@dimen/adobe_csdk_storage_empty_state_view_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adobe_search_empty_results_message"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

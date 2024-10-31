@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#2a9bf3"/>
+            <size
+                android:height="50dp"
+                android:width="50dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/creative_cloud"
+        android:left="7dp"
+        android:top="7dp"
+        android:right="7dp"
+        android:bottom="7dp"/>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="adobeassetviewerimages"
+        path="adobeassetviewerimages/"/>
+    <files-path
+        name="adobeassetofflinefiles"
+        path="adobeassetofflinefiles/"/>
+</paths>

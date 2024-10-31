@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/adobe_csdk_id_authenticator_settings_label"
+    android:icon="@drawable/adobe_csdk_account_settings_img"
+    android:accountType="com.adobe.creativesdk.foundation.auth.adobeID"
+    android:smallIcon="@drawable/adobe_csdk_account_settings_img"
+    android:customTokens="true"/>

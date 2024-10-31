@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/optionMenuListItem"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.nexstreaming.app.general.util.IconView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pedit_icon_option_panel_width"
+        android:layout_marginBottom="1dp"
+        android:scaleType="centerInside"
+        android:layout_centerInParent="true"
+        app:iconColor="@color/optmenu_item_text_color"/>
+</RelativeLayout>

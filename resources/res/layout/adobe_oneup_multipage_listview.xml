@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/adobe_csdk_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.adobe.creativesdk.foundation.internal.grid.StaggeredGridView xmlns:sgv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adobe_csdk_multipage_singlecolumn_staggeredGridView"
+        android:paddingTop="@dimen/adobe_csdk_assetbrowser_grid_padding_top"
+        android:longClickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sgv:adobe_csdk_column_count_landscape="1"
+        sgv:adobe_csdk_column_count_portrait="1"
+        sgv:adobe_csdk_item_margin="@dimen/adobe_csdk_assetbrowser_grid_item_margin"/>
+    <RelativeLayout
+        android:id="@+id/adobe_csdk_asset_one_up_multi_page_list_section_container"
+        android:background="@drawable/rounded_rectangle"
+        android:paddingRight="7dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.5">
+        <ImageView
+            android:id="@+id/adobe_csdk_page_indicator_list_view"
+            android:paddingLeft="19dp"
+            android:paddingTop="1dp"
+            android:paddingRight="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page_numbering_header"
+            android:layout_centerVertical="true"/>
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/adobe_csdk_asset_one_up_multi_page_list_section_textview"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 of 12"
+            android:layout_toRightOf="@+id/adobe_csdk_page_indicator_list_view"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

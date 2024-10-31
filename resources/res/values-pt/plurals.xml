@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="one">%d faixa</item>
+        <item quantity="other">%d faixas</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="one">Esta versão beta irá expirar daqui a %d dia</item>
+        <item quantity="other">Esta versão beta irá expirar daqui a %d dias</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="one">Está faltando um arquivo de áudio neste projeto em %s.</item>
+        <item quantity="other">Estão faltando arquivos de áudio neste projeto.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="one">Está faltando um arquivo de imagem neste projeto em %s.</item>
+        <item quantity="other">Estão faltando arquivos de imagem neste projeto.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="one">É recomendado substituí-lo antes de exportar.</item>
+        <item quantity="other">É recomendado substituí-los antes de exportar.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="one">Está faltando um arquivo de vídeo neste projeto em %s.</item>
+        <item quantity="other">Estão faltando arquivos de vídeo neste projeto.</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="one">(%d day remaining)</item>
+        <item quantity="other">(%d days remaining)</item>
+    </plurals>
+</resources>

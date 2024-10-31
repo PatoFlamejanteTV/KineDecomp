@@ -1,0 +1,67 @@
+package com.nexstreaming.kinemaster.camcorder;
+
+import android.content.Intent;
+import android.media.MediaPlayer;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.VideoView;
+import java.io.File;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: CamcorderPreviewActivity.java */
+/* loaded from: classes.dex */
+public class r implements View.OnClickListener {
+
+    /* renamed from: a */
+    final /* synthetic */ CamcorderPreviewActivity f20007a;
+
+    public r(CamcorderPreviewActivity camcorderPreviewActivity) {
+        this.f20007a = camcorderPreviewActivity;
+    }
+
+    @Override // android.view.View.OnClickListener
+    public void onClick(View view) {
+        String str;
+        VideoView videoView;
+        View view2;
+        View view3;
+        View view4;
+        ImageButton imageButton;
+        View view5;
+        MediaPlayer mediaPlayer;
+        View view6;
+        MediaPlayer mediaPlayer2;
+        File s;
+        String str2;
+        Intent intent = this.f20007a.getIntent();
+        str = this.f20007a.f19980d;
+        if (str != null) {
+            s = this.f20007a.s();
+            this.f20007a.f19980d = s.getAbsolutePath();
+            str2 = this.f20007a.f19980d;
+            intent.putExtra("VIDEO_PATH", str2);
+            intent.putExtra("USE_AS_LAYER", false);
+        }
+        this.f20007a.setResult(-1, intent);
+        videoView = this.f20007a.f19977a;
+        videoView.setVisibility(8);
+        view2 = this.f20007a.f19982f;
+        view2.setVisibility(8);
+        view3 = this.f20007a.f19984h;
+        view3.setVisibility(8);
+        view4 = this.f20007a.f19983g;
+        view4.setVisibility(8);
+        imageButton = this.f20007a.f19978b;
+        imageButton.setVisibility(8);
+        view5 = this.f20007a.j;
+        view5.setVisibility(0);
+        mediaPlayer = this.f20007a.i;
+        if (mediaPlayer != null) {
+            mediaPlayer2 = this.f20007a.i;
+            mediaPlayer2.release();
+            this.f20007a.i = null;
+        }
+        view6 = this.f20007a.f19982f;
+        view6.postDelayed(new q(this), 500L);
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/adobe_csdk_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/adobe_csdk_library_items_header_size">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+        android:textSize="@dimen/adobe_csdk_library_items_header_text_size"
+        android:textColor="@color/adobe_csdk_asset_browser_light_text"
+        android:id="@+id/adobe_csdk_library_items_header_text_id"
+        android:background="@color/adobe_csdk_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

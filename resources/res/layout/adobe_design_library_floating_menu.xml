@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/adobe_library_alpha_pane"
+        android:background="@android:color/darker_gray"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"/>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/adobe_library_collection_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:elevation="6dp"
+        app:fab_addButtonColorNormal="@color/adobe_csdk_fab_icon_color"
+        app:fab_labelStyle="@style/AdobeFloatingButtonLabelStyle"
+        app:pressedTranslationZ="12dp"/>
+</RelativeLayout>

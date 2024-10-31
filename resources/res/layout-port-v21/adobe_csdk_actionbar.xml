@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adobe_csdk_actionbar_toolbar"
+    android:background="@color/adobe_csdk_actionbar_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/adobe_csdk_action_bar_size"
+    android:contentInsetStart="72dp"
+    app:contentInsetStart="72dp"
+    app:popupTheme="@style/AdobeCSDKPopUpStyle"
+    app:theme="@style/AdobeCSDKThemeActionBar">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+        android:textSize="@dimen/adobe_csdk_actionBar_text_size"
+        android:textColor="@color/adobe_csdk_asset_browser_dark_text"
+        android:ellipsize="middle"
+        android:gravity="left"
+        android:id="@+id/adobe_csdk_actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+</android.support.v7.widget.Toolbar>

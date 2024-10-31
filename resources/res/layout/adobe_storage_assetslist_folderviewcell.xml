@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.storage.controllers.SectionalListFolderCellView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adobe_csdk_storage_assetlist_foldercell_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/adobe_csdk_assetbrowser_list_view_image_left_padding">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/adobe_storage_assetslist_header"/>
+        <include layout="@layout/adobe_storage_assetslist_divider"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/adobe_csdk_assetbrowser_list_view_item_height">
+            <ImageView
+                android:gravity="center"
+                android:id="@+id/adobe_csdk_storage_assetlist_foldercell_image"
+                android:layout_width="@dimen/adobe_csdk_assetbrowser_list_view_image_dimension"
+                android:layout_height="@dimen/adobe_csdk_assetbrowser_list_view_image_dimension"
+                android:layout_marginTop="@dimen/adobe_csdk_assetbrowser_list_view_image_top_padding"
+                android:src="@drawable/collection_folder"/>
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+                android:textSize="@dimen/adobe_csdk_assetbrowser_list_view_text_size"
+                android:ellipsize="middle"
+                android:gravity="center_vertical"
+                android:id="@+id/adobe_csdk_storage_assetlist_foldercell_title"
+                android:background="@color/adobe_csdk_transparent_color"
+                android:layout_width="@dimen/adobe_csdk_assetbrowser_list_view_folder_text_layout_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/adobe_csdk_assetbrowser_list_view_text_left_padding"
+                android:singleLine="true"
+                android:layout_weight="1"/>
+            <ImageView
+                android:gravity="center_vertical"
+                android:background="@color/adobe_csdk_transparent_color"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/adobe_csdk_assetbrowser_list_view_folder_forward_left_padding"
+                android:layout_marginRight="@dimen/adobe_csdk_assetbrowser_list_view_folder_forward_right_padding"
+                android:src="@drawable/folder_forward_icon"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.adobe.creativesdk.foundation.internal.storage.controllers.SectionalListFolderCellView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/gdpr_popup_scrollview_bg_color"/>
+    <corners
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"/>
+</shape>

@@ -1,0 +1,29 @@
+{
+  "ratios": ["16:9", "9:16", "1:1"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "id": "com.nexstreaming.kinemaster.serene.transition",
+  "label": {
+    "en": "Serene",
+    "ar": "هادئ",
+    "ko": "고요한",
+    "pt": "Sereno",
+    "ja": "静かな",
+    "fr": "Serein",
+    "zh-CN": "沉静",
+    "zh-TW": "寧靜",
+    "zh-HK": "寧靜",
+    "de": "Heiter",
+    "ru": "Безмятежность",
+    "es": "Sereno",
+    "hi":"प्रशांत",
+    "id":"Hening",
+    "it":"Sereno",
+    "ms":"Serene",
+    "th":"Serene",
+    "tr":"Sakin",
+    "vi":"Êm đềm"
+  },
+  "type": "nex.kedl",
+  "hidden": false
+}

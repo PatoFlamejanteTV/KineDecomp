@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mediabrowser_item_layout_height"
+    android:layout_margin="@dimen/mediabrowser_gridview_padding_bottom">
+    <ImageView
+        android:id="@+id/img_folder_image"
+        android:layout_width="@dimen/mediabrowser_item_layout_width"
+        android:layout_height="match_parent"
+        android:src="@drawable/panel_media_browser_special_item_background_line"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/icon_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="@dimen/mediabrowser_folder_text_size"
+        android:textColor="@color/mediabrowser_text_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/folder_title_for_special"
+        android:layout_width="@dimen/mediabrowser_item_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="@dimen/mediabrowser_folder_margin_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

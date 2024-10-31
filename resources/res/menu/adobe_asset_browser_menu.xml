@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adobe_csdk_uxassetbrowser_assets_viewtype"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_uxassetbrowser_action_aslist"
+        android:alphabeticShortcut="l"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_uxassetbrowser_assets_view_sorttype"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_uxassetbrowser_action_sort_alpha"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_uxassetbrowser_assets_create_new_folder"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_uxassetbrowser_create_new_folder"
+        android:alphabeticShortcut="n"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_uxassetbrowser_assets_upload_btn"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_CANCEL_UPLOAD_ASSET_BROWSER_BUTTON"
+        app:showAsAction="never"/>
+</menu>

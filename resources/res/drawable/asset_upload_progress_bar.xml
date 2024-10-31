@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adobe_csdk_background">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:id="@+id/adobe_csdk_secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="@color/adobe_csdk_progress_bar_secondary_color"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@+id/adobe_csdk_progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/adobe_csdk_tab_indicator_color"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

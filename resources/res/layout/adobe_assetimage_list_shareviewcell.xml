@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/adobe_csdk_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+            android:textSize="@dimen/adobe_csdk_assetbrowser_list_view_text_size"
+            android:textColor="@color/adobe_csdk_asset_browser_dark_text"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@+id/adobe_csdk_title"
+            android:background="@color/adobe_csdk_transparent_color"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/adobe_csdk_assetbrowser_list_view_text_left_padding"
+            android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

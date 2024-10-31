@@ -1,0 +1,143 @@
+/*
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ * Copyright 2014 Adobe Systems Incorporated
+ * All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+package com.adobe.creativesdk.foundation;
+
+import android.content.Context;
+
+import com.adobe.creativesdk.foundation.auth.IAdobeAuthClientCredentials;
+import com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager;
+import com.adobe.creativesdk.foundation.internal.common.AdobeCommonApplicationContextHolder;
+import com.adobe.creativesdk.foundation.internal.utils.logging.AdobeLogger;
+import com.adobe.creativesdk.foundation.internal.utils.logging.Level;
+
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+
+import javax.crypto.NoSuchPaddingException;
+
+/**
+ * <code>AdobeCSDKFoundation</code> is an object representing the version of the Creative SDK Foundation.
+ */
+public class AdobeCSDKFoundation {
+
+	private final static String _version = "0.9.2001-29";
+    private static final String TAG = "AdobeCSDKFoundation";
+    private static String _clientID = null;
+    private static String _clientSecret = null;
+    private static String _appName = null;
+    private static String _appVersion = null;
+    private static String _redirectURI = null;
+    private static String[] _additionalScopes = null;
+
+	/**
+	 * Gets the version of the Creative SDK Foundation.
+     * @return the version of the Creative SDK Foundation.
+	 */
+	static public String getVersion() { return _version; }
+
+    /**
+     * Initialize the CSDK foundation library. This is the first call that needs to be made before using
+     * Creative SDK Foundation library.
+     *
+     * Recommended to call this method from the <code>onCreate()</code> method of the application. This way required
+     * credentials are available every time the application starts.
+     *
+     * @param appContext application <code>Context</code>.
+     */
+    public static void initializeCSDKFoundation(Context appContext)
+    {
+       IAdobeAuthClientCredentials creds = null;
+        if ( appContext instanceof IAdobeAuthClientCredentials )
+        {
+            creds = (IAdobeAuthClientCredentials)appContext;
+            _clientID = creds.getClientID();
+            _clientSecret =  creds.getClientSecret();
+            _redirectURI = creds.getRedirectURI();
+            _additionalScopes = creds.getAdditionalScopesList();
+
+            AdobeCommonApplicationContextHolder.getSharedApplicationContextHolder().setApplicationContext(appContext);
+            try {
+                AdobeAuthManager.sharedAuthManager().setAuthenticationParameters(_clientID, _clientSecret, _redirectURI,_additionalScopes,null);
+            } catch (NoSuchPaddingException | NoSuchAlgorithmException | InvalidKeyException e) {
+                AdobeLogger.log(Level.DEBUG, TAG, e.getMessage(), e);
+            }
+        } else {
+            AdobeLogger.log(Level.ERROR, TAG, "Context not instance of IAdobeAuthClientCredentials");
+        }
+    }
+
+    /**
+     * Sets application details in CSDK.
+     *
+     * @param appName name of the application.
+     * @param appVersion version of the application.
+     */
+    public static void initializeAppInfo( String appName, String appVersion )
+    {
+        _appName = appName;
+        _appVersion = appVersion;
+    }
+
+    /**
+     * Gets the client ID of the application.
+     * @return client ID.
+     */
+    public static String getClientId() { return _clientID;}
+
+    /**
+     * Gets the client secret of the application.
+     * @return client secret.
+     */
+    public static String getClientSecret() { return _clientSecret;}
+
+    /**
+     * Gets the application name that SDK was initialised with.
+     * @return application name.
+     */
+    public static String getApplicationName()
+    {
+        return _appName;
+    }
+
+    /**
+     * Gets the application version that SDK was initialised with.
+     * @return app version.
+     */
+    public static String getApplicationVersion()
+    {
+       return _appVersion;
+    }
+
+    /**
+     * Gets the redirect uri that SDK was initialised with.
+     * @return redirect uri.
+     */
+    public static String getRedirectURI()
+    {
+        return _redirectURI;
+    }
+
+    /**
+     * Gets the additional-scopes that SDK was initialised with.
+     * @return additional-scopes.
+     */
+    public static String[] getAdditionalScopes()
+    {
+        return _additionalScopes;
+    }
+
+}

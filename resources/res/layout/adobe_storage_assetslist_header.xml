@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/adobe_csdk_storage_assetslist_header_txt_size"
+    android:textColor="@color/adobe_csdk_asset_browser_light_text"
+    android:id="@+id/adobe_csdk_storage_assetslist_group_header_view"
+    android:background="@color/adobe_csdk_background_color"
+    android:paddingTop="@dimen/adobe_csdk_storage_assetslist_header_header_txt_padding"
+    android:paddingRight="@dimen/adobe_csdk_storage_assetslist_header_right_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/adobe_csdk_assetbrowser_list_view_image_left_padding"/>

@@ -1,0 +1,22 @@
+{
+  "ratios":["16:9", "9:16", "1:1"],
+  "filename": "kedl.xml",
+  "icon": "asset_icon.png",
+  "id": "com.nexstreaming.kinemaster.builtin.transition.slideright",
+  "label": {
+    "pt": "Deslizar para a direita",
+    "ja": "右側スライド",
+    "fr": "Glissement vers la droite",
+    "zh-CN": "右移",
+    "ko-KR": "오른쪽 슬라이드",
+    "ar": "تمرير لليمين",
+    "zh-TW": "右移",
+    "en": "Slide Right",
+    "zh-HK": "右移",
+    "de-DE": "Nach Rechts gleiten",
+    "ru": "Скольжение вправо",
+    "es": "Deslizar a la derecha"
+  },
+  "type": "nex.kedl",
+  "hidden": true
+}

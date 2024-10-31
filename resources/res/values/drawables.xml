@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="focus_light_pink_bg">#99d15a5a</drawable>
+    <drawable name="focus_navy_bg">#14171c</drawable>
+    <drawable name="focus_pink_bg">#b3ff5b5b</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="preference_focused_item">#19ffffff</drawable>
+    <drawable name="transparent">#00ffffff</drawable>
+</resources>

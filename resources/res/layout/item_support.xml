@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:textColor="@android:color/black"
+            android:gravity="start|center_vertical"
+            android:id="@+id/tv_item_support"
+            android:paddingLeft="36dp"
+            android:paddingRight="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <View
+            android:background="@color/dialog_button_border"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

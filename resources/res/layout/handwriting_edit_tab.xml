@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/center"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_marginLeft="@dimen/handwriting_toolPanelSideMargins"
+        android:layout_toLeftOf="@+id/center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+        <View style="@style/Spacer"/>
+        <FrameLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_gravity="bottom|left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/handwriting_popout_ind"/>
+            <com.nexstreaming.app.general.util.IconButton
+                android:id="@+id/buttonPencil"
+                android:src="@drawable/handwriting_pencil"
+                app:iconColor="@color/handwriting_icon"
+                style="@style/HandwritingRoundButton"/>
+        </FrameLayout>
+        <View style="@style/Spacer"/>
+        <com.nexstreaming.app.general.util.IconButton
+            android:id="@+id/buttonEraser"
+            android:src="@drawable/handwriting_eraser"
+            app:iconColor="@color/handwriting_icon"
+            style="@style/HandwritingRoundButton"/>
+        <View style="@style/Spacer"/>
+        <ImageButton
+            android:id="@+id/buttonSize"
+            style="@style/HandwritingRoundButton"/>
+        <View style="@style/Spacer"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_marginRight="@dimen/handwriting_toolPanelSideMargins"
+        android:layout_toRightOf="@+id/center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+        <View style="@style/Spacer"/>
+        <ImageButton
+            android:id="@+id/buttonColor"
+            style="@style/HandwritingRoundButton"/>
+        <View style="@style/Spacer"/>
+        <com.nexstreaming.app.general.util.IconButton
+            android:id="@+id/buttonEraseAll"
+            android:src="@drawable/handwriting_erase_all"
+            app:iconColor="@color/handwriting_icon"
+            style="@style/HandwritingRoundButton"/>
+        <View style="@style/Spacer"/>
+        <com.nexstreaming.app.general.util.IconButton
+            android:id="@+id/buttonFull"
+            android:visibility="invisible"
+            android:src="@drawable/action_fullscreen"
+            app:iconColor="@color/handwriting_icon"
+            style="@style/HandwritingRoundButton"/>
+        <View style="@style/Spacer"/>
+    </LinearLayout>
+</RelativeLayout>

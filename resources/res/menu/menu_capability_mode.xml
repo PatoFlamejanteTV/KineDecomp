@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/maxmize_features"
+            android:orderInCategory="100"
+            android:title="@string/maxmize_features"/>
+        <item
+            android:id="@+id/maxmize_resolution"
+            android:orderInCategory="200"
+            android:title="@string/maxmize_resolution"/>
+    </group>
+    <item
+        android:icon="@drawable/icon_settings_device_capability_s"
+        android:id="@+id/run_analysis_now"
+        android:orderInCategory="400"
+        android:title="@string/run_analysis_now"
+        android:actionLayout="@layout/layout_toolbar_dc_item"/>
+</menu>

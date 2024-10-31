@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adobe_csdk_cc_adobe_asset_one_up_view_publish_to_behance_menu"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_IDS_ACTION_VIEW_PUBLISH_TO_BEHANCE"
+        app:showAsAction="never"/>
+</menu>

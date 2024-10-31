@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/popout_menu_item_bg_sel"
+        android:color="@color/popout_menu_item_bg_sel"/>
+    <item
+        android:drawable="@color/popout_menu_item_bg_nor"
+        android:color="@color/popout_menu_item_bg_nor"/>
+</selector>

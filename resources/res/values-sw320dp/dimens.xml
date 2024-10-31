@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adobe_csdk_asset_multipage_gridview_column_width">140dp</dimen>
+</resources>

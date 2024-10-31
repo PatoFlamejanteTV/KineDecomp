@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="files"
+        path="/KineMaster/Export"/>
+    <external-path
+        name="photo"
+        path="/KineMaster/Photo"/>
+    <external-path
+        name="projects"
+        path="/KineMaster/Projects"/>
+    <external-path
+        name="gdt_sdk_download_path"
+        path="GDTDOWNLOAD"/>
+    <root-path
+        name="root"
+        path="."/>
+</paths>

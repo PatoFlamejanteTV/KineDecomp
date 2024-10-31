@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/optmenu_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/option_menu_list_header"/>
+    <ListView
+        android:id="@+id/after_voicerec_menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/optmenu_background_color"
+        android:divider="@color/pedit_background_color"
+        android:dividerHeight="1dp"
+        android:choiceMode="singleChoice"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/voicerec_meter_view"
+            android:background="@drawable/voicerec_meter_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/voicerec_meter_clip_drawable"/>
+        <Button
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/rec_start_stop_btn"
+            android:background="@drawable/btn_background_img"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/voicerec_btn_start"/>
+    </LinearLayout>
+</LinearLayout>

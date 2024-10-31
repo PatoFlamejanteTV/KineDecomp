@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <dimen name="abc_dialog_fixed_height_major">60%</dimen>
+    <dimen name="abc_dialog_fixed_height_minor">90%</dimen>
+    <dimen name="abc_dialog_fixed_width_major">60%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">90%</dimen>
+    <dimen name="abc_dialog_min_width_major">55%</dimen>
+    <dimen name="abc_dialog_min_width_minor">80%</dimen>
+    <dimen name="adobe_csdk_asset_edit_dialog_fragment_erase_margin_left">22dp</dimen>
+    <dimen name="adobe_csdk_asset_edit_dialog_fragment_erase_margin_right">26dp</dimen>
+    <dimen name="adobe_csdk_asset_edit_dialog_fragment_margin_left">24dp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/adobe_csdk_multipage_recyclerview"
+        android:padding="@dimen/adobe_csdk_asset_multipage_spacing"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:id="@+id/adobe_csdk_asset_one_up_multi_page_recycler_section_container"
+        android:background="@drawable/rounded_rectangle"
+        android:paddingRight="7dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.7"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@+id/adobe_csdk_page_indicator_recycler_view"
+            android:paddingLeft="19dp"
+            android:paddingTop="1dp"
+            android:paddingRight="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page_numbering_header"
+            android:layout_centerVertical="true"/>
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/adobe_csdk_asset_one_up_multi_page_recycler_section_textview"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 of 12"
+            android:layout_toRightOf="@+id/adobe_csdk_page_indicator_recycler_view"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <include
+        android:id="@+id/adobe_csdk_listview_container_no_network_notification_bar"
+        android:visibility="gone"
+        layout="@layout/adobe_csdk_common_popup_bannerview"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>layer_mask_ring</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M55,110 C85.3756612,110 110,85.3756612 110,55 C110,24.6243388 85.3756612,0 55,0 C24.6243388,0 0,24.6243388 0,55 C0,85.3756612 24.6243388,110 55,110 L55,110 Z M55,96 C77.6436747,96 96,77.6436747 96,55 C96,32.3563253 77.6436747,14 55,14 C32.3563253,14 14,32.3563253 14,55 C14,77.6436747 32.3563253,96 55,96 L55,96 Z" id="layer_mask_ring" fill="#FFFFFF"></path>
+    </g>
+</svg>

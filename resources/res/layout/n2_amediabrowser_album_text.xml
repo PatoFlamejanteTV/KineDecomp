@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/selector_media_browser"
+    android:paddingLeft="10dp"
+    android:paddingRight="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/audio_browser_item_height">
+    <TextView
+        android:textSize="@dimen/amediabrowser_album_text"
+        android:textColor="@color/n2_amediabrowser_text_color"
+        android:id="@+id/tv_song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+    <TextView
+        android:textSize="@dimen/amediabrowser_album_tracks"
+        android:textColor="@color/n2_amediabrowser_text_color"
+        android:id="@+id/NoOfTracks"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>

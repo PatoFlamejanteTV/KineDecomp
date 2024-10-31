@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+        android:textSize="@dimen/adobe_csdk_fragment_asset_detail_large_text"
+        android:textColor="@color/adobe_csdk_asset_browser_dark_text"
+        android:gravity="center_vertical"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/adobe_csdk_fragment_asset_detail_padding_left"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:text="@string/adobe_csdk_IDS_UPLOAD_ERROR_DGL_TITLE"/>
+    <View
+        android:background="@color/adobe_csdk_storage_assetslist_divider_color"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"/>
+    <ListView
+        android:id="@+id/adobe_csdk_assetview_upload_error_detials_main_list"
+        android:background="@color/adobe_csdk_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/adobe_csdk_storage_assetslist_divider_color"/>
+</LinearLayout>

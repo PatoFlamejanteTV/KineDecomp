@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nexstreaming.kinemaster.ui.projectedit.timeline.BalloonLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="100dp"
+    android:minHeight="32dp">
+    <TextView
+        android:textSize="@dimen/custom_drag_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/custom_drag_text_color"
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.nexstreaming.kinemaster.ui.projectedit.timeline.BalloonLayout>

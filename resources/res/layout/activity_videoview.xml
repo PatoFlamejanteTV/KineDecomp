@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adobe_csdk_videoView_layout"
+    android:background="#000000"
+    android:paddingLeft="@dimen/adobe_csdk_activity_horizontal_margin"
+    android:paddingTop="@dimen/adobe_csdk_activity_vertical_margin"
+    android:paddingRight="@dimen/adobe_csdk_activity_horizontal_margin"
+    android:paddingBottom="@dimen/adobe_csdk_activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/adobe_csdk_video_container_no_network_notification_bar"
+        android:visibility="gone"
+        layout="@layout/adobe_csdk_common_popup_bannerview"/>
+    <RelativeLayout
+        android:id="@+id/adobe_csdk_video_view_outer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adobe_csdk_video_container_no_network_notification_bar">
+        <VideoView
+            android:id="@+id/adobe_csdk_asset_video_viewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/adobe_csdk_asset_videoInit_progressBar"
+        android:background="@drawable/adobe_csdk_spinner_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

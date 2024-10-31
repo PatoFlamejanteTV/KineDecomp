@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layer_popup__y_diff">0dp</dimen>
+    <dimen name="mb_detailview_arrow_margin">4dp</dimen>
+    <dimen name="mb_detailview_body_padding">40dp</dimen>
+    <dimen name="mb_detailview_button_size">50.6dp</dimen>
+    <dimen name="mb_detailview_space_width">50dp</dimen>
+    <dimen name="project_gallery_details_body_padding">54dp</dimen>
+    <dimen name="project_gallery_details_thumb_margin_left">80dp</dimen>
+    <dimen name="project_gallery_details_thumb_margin_right">56dp</dimen>
+    <dimen name="project_gallery_left_width">320dp</dimen>
+    <dimen name="project_gallery_logo_marginLeft">0dp</dimen>
+    <dimen name="project_gallery_logo_marginRight">0dp</dimen>
+</resources>

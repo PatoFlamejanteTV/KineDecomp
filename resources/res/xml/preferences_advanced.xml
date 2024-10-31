@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_section_advanced">
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_mediabrowser_hierarchy"
+            android:key="pref_mbrowser_hierarchy"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_mediabrowser_hierarchy_on"
+            android:summaryOff="@string/pref_mediabrowser_hierarchy_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_vidrec_levelmeter"
+            android:key="pref_vidrec_levelmeter"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_vidrec_levelmeter_on"
+            android:summaryOff="@string/pref_vidrec_levelmeter_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_export_60fps"
+            android:key="pref_export_60fps"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_export_60fps_on"
+            android:summaryOff="@string/pref_export_60fps_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_export_diagnostics"
+            android:key="export_diagnostics"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_export_diagnostics_on"
+            android:summaryOff="@string/pref_export_diagnostics_off"/>
+        <com.nexstreaming.app.general.preferences.NexSwitchPreference
+            android:persistent="true"
+            android:title="@string/pref_unlimited_video_layer"
+            android:key="unlimited_layers"
+            android:defaultValue="false"
+            android:summaryOn="@string/pref_unlimited_video_layer_on"
+            android:summaryOff="@string/pref_unlimited_video_layer_off"/>
+    </PreferenceCategory>
+</PreferenceScreen>

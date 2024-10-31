@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/adobe_csdk_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/adobe_csdk_assetview_container_content_rootview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adobe_csdk_bottombar_menu">
+        <FrameLayout
+            android:id="@+id/adobe_csdk_assetview_container_content_assetsview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/adobe_csdk_assetview_container_progressBar"
+        android:background="@drawable/adobe_csdk_spinner_bar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout>

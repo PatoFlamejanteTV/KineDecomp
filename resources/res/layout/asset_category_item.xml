@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nexstreaming.kinemaster.ui.widget.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/store_main_cat_selector"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+    <com.nexstreaming.kinemaster.ui.widget.SquareLinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/categoryIconView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"/>
+    </com.nexstreaming.kinemaster.ui.widget.SquareLinearLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+</com.nexstreaming.kinemaster.ui.widget.SquareLinearLayout>

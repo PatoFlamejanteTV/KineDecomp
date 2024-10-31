@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%d首曲目</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">测试版将在于%d天后过期</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">此项目缺少音频文件。</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">此项目缺少图像文件。</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">建议您在导出之前替换它们。</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">此项目缺少视频文件。</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">(剩余时间%d天)</item>
+    </plurals>
+</resources>

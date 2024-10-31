@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/storage_assetcell_background_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/FocusableViewWhiteBg">
+    <ImageView
+        android:id="@+id/adobe_csdk_mobilecreation_item_mainImage"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/folder_cell_count_size"
+            android:textColor="@color/adobe_csdk_theme_color_light_text"
+            android:id="@+id/adobe_csdk_mobilecreation_item_modifiedDate"
+            android:paddingLeft="@dimen/adobe_csdk_assetbrowser_grid_item_folder_padding"
+            android:paddingBottom="@dimen/adobe_csdk_3dot_icon_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

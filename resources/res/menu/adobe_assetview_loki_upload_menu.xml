@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adobe_csdk_asset_browser_adobe_notification"
+        android:orderInCategory="2"
+        android:title="@string/adobe_csdk_notification_title"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/adobe_csdk_asset_browser_collaborator_menu"
+        android:orderInCategory="201"
+        android:title="@string/adobe_csdk_collaborator"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_asset_browser_collaborator_leave_folder_menu"
+        android:orderInCategory="202"
+        android:title="@string/adobe_csdk_collaborator_leave_folder"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_uxassetbrowser_assets_view_edit_asset"
+        android:orderInCategory="200"
+        android:title="@string/adobe_csdk_uxassetbrowser_action_edit_asset"
+        app:showAsAction="never"/>
+</menu>

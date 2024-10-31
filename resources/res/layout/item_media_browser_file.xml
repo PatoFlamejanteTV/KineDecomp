@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mediabrowser_item_layout_height"
+    android:layout_margin="@dimen/mediabrowser_gridview_padding_bottom">
+    <ImageView
+        android:id="@+id/media_image"
+        android:layout_width="@dimen/mediabrowser_item_layout_width"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/icon_favorite"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/panel_media_browser_item_favor_margin"
+        android:src="@drawable/icon_content_favorite_activate"
+        android:layout_alignTop="@+id/media_image"
+        android:layout_alignRight="@+id/media_image"/>
+    <ImageView
+        android:id="@+id/imageView_content_type"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_alignLeft="@+id/media_image"
+        android:layout_alignBottom="@+id/media_image"/>
+    <ImageView
+        android:background="@drawable/img_new_project_round_rectangle"
+        android:layout_width="@dimen/mediabrowser_item_layout_width"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

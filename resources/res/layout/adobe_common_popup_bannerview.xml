@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/adobe_csdk_common_popup_bannerview_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/adobe_csdk_common_popup_bannerview_layout_height"
+    android:alpha="0.6">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+        android:textSize="@dimen/adobe_csdk_common_popup_bannerview_text_size"
+        android:textColor="@color/adobe_csdk_common_popup_bannerview_text_color"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/adobe_csdk_common_popup_banner_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adobe_csdk_common_error_view_no_internet_connection"/>
+</LinearLayout>

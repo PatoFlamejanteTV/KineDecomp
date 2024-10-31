@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/status_bar_spacer"
+        android:background="@color/adobe_csdk_activity_common_status_bar_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/adobe_csdk_actionbar"/>
+    <FrameLayout
+        android:id="@+id/adobe_csdk_library_element_move_frame"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

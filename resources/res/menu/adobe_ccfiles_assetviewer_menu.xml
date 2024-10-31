@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adobe_csdk_action_view_file_details"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_IDS_ACTION_VIEW_FILE_DETAILS"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_asset_one_up_view_comments_menu"
+        android:orderInCategory="100"
+        android:title="@string/adobe_csdk_IDS_ACTION_VIEW_COMMENT"
+        app:showAsAction="ifRoom"/>
+</menu>

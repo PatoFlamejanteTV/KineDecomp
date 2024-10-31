@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/adobe_csdk_background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/adobe_csdk_common_view_error_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adobe_csdk_no_internet_connection"
+        android:layout_centerInParent="true"/>
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKBoldTextView
+        android:textSize="@dimen/adobe_csdk_common_error_view_textSize"
+        android:textStyle="bold"
+        android:textColor="@color/adobe_csdk_asset_browser_dark_text"
+        android:id="@+id/adobe_csdk_common_view_error_message"
+        android:paddingTop="@dimen/adobe_csdk_common_error_view_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adobe_csdk_common_error_view_no_internet_connection"
+        android:layout_below="@+id/adobe_csdk_common_view_error_icon"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

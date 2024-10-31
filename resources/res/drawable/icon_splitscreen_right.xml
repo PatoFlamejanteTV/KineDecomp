@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/split_screen_button_content_width_half"
+        android:top="@dimen/split_screen_button_content_padding"
+        android:right="@dimen/split_screen_button_content_padding"
+        android:bottom="@dimen/split_screen_button_content_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="1dp"/>
+            <solid android:color="@color/opt_splitscreen_icon_fill"/>
+            <stroke
+                android:width="0.66dp"
+                android:color="@color/opt_splitscreen_icon_border"/>
+            <size
+                android:height="@dimen/split_screen_button_content_height"
+                android:width="@dimen/split_screen_button_content_width_half"/>
+        </shape>
+    </item>
+</layer-list>

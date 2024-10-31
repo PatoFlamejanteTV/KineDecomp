@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="14242"
+    android:versionName="4.11.15.14242.GP"
+    package="com.nexstreaming.app.kinemasterfree">
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-feature android:glEsVersion="0x20000"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.nextreaming.nexeditorui.KineMasterApplication"
+        android:alwaysRetainTaskState="true"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:resizeableActivity="false"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:theme="@style/SplashTheme"
+            android:name="com.nexstreaming.kinemaster.ui.SplashActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.nextreaming.nexeditorui.MainActivity"
+            android:targetActivity="com.nexstreaming.kinemaster.ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.TencentSplashAdActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.welcome.WelcomeActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.projectgallery.ProjectGalleryActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.projectedit.ProjectEditActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.projectedit.FullScreenInputActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.previewplay.PreviewPlayActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.ui.store.controller.StoreActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.nexstreaming.kinemaster.ui.share.ShareIntentActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.kinemaster.intent.NEW_PROJECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="kinemaster"
+                    android:host="kinemaster"/>
+                <data
+                    android:scheme="http"
+                    android:host="kinemaster.com"/>
+                <data
+                    android:scheme="https"
+                    android:host="kinemaster.com"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.share.ExportAndShareActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName="com.nexstreaming.kinemaster.ui.projectgallery.ProjectGalleryActivity"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.ui.share.ShareSubscriptionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName="com.nexstreaming.kinemaster.ui.projectgallery.ProjectGalleryActivity"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.camcorder.CamcorderActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nexstreaming.kinemaster.camcorder.CamcorderPreviewActivity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nextreaming.nexeditorui.fontbrowser.FontBrowserActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:label="@string/help_activity"
+            android:name="com.nextreaming.nexeditorui.NexEditorHelp"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nextreaming.nexeditorui.newproject.NewProjectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.ui.settings.SettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.ui.settings.CodecLimitsSettings"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme.DeviceCapabililtyImporter"
+            android:name="com.nexstreaming.kinemaster.ui.settings.DeviceCapabilityProfileImporter"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.codeccaps.ui.CapabilityTestIntroActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.codeccaps.ui.CapabilityTestRunnerActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.support.SupportAppsActivity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity
+            android:theme="@style/KineMasterTheme.Preference"
+            android:name="com.nexstreaming.kinemaster.help.HelpActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.nexstreaming.kinemaster.util.update.AssetUpdateActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.nexstreaming.kinemaster.support.SupportInputActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.nexstreaming.kinemaster.support.ChoiceCloudActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity android:name="com.nextreaming.nexeditorui.ExpiredActivity"/>
+        <activity
+            android:theme="@style/KineMasterTheme"
+            android:name="com.nextreaming.nexeditorui.BailActivity"/>
+        <activity
+            android:name="com.nextreaming.nexeditorui.RelaunchActivity"
+            android:process=":NexRelaunchActivity"/>
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.nexstreaming.app.kinemasterfree.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:configChanges="screenSize|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="@string/wx_app_id"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.nexstreaming.app.kinemasterfree.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/FirebaseUI.Transparent"
+            android:label=""
+            android:name="com.firebase.ui.auth.KickoffActivity"
+            android:exported="false"/>
+        <activity
+            android:label="@string/title_recover_password_activity"
+            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <activity
+            android:label="@string/service_login_required"
+            android:name="com.firebase.ui.auth.ui.email.RegisterEmailActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <activity
+            android:label="@string/service_login_required"
+            android:name="com.firebase.ui.auth.ui.accountlink.WelcomeBackPasswordPrompt"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <service
+            android:name="com.nexstreaming.app.general.service.download.NexDownloadService"
+            android:process=":nexDownloader"/>
+        <service android:name="com.nexstreaming.app.general.service.FCMService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.nexstreaming.app.general.receiver.ApplicationChecker">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"/>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER"/>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_UNREGISTER"/>
+                <action android:name="com.nextreaming.kinemaster.asset.install.clear"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.nexstreaming.app.general.receiver.KMInstallReferrerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.nexstreaming.app.kinemasterfree"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"
+            android:authorities="com.facebook.app.FacebookContentProvider224150177763582"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_icon"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/km_red"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6554794109779706~1563563274"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="5febde87ac5d9aac4a9dac89b092d1a66ff6116b"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXAssetOneUpViewerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXPhotoAssetOneUpViewerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeCSDKThemeActivity"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXAssetVideoActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXLibraryItemCollectionOneUpViewerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXMobilePackageItemOneUpViewerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXCompositionOneUpViewerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeEditThemeActivity"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.edit.AdobeAssetEditActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeEditThemeActivity"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.libraryedit.AdobeDesignLibraryMoveActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeCSDKThemeActivity.NoActionBar"
+            android:name="com.adobe.creativesdk.foundation.internal.settings.CloudPickerActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AdobeAssetViewerLightTheme"
+            android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeShowUploadTasksActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:resizeableActivity="true"/>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"/>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"/>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/Theme.AppInvite.Preview"
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:permission="android.permission.INSTALL_PACKAGES"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/AdobeCSDKThemeActivity"
+            android:label="@string/adobe_csdk_creative_cloud"
+            android:name="com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            android:exported="false"
+            android:multiprocess="true"
+            android:windowSoftInputMode="adjustNothing|stateUnchanged"/>
+        <activity
+            android:theme="@style/AdobeCSDKThemeActivity"
+            android:label="@string/adobe_csdk_creative_cloud"
+            android:name="com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            android:exported="false"
+            android:multiprocess="true"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustNothing|stateUnchanged"/>
+        <activity android:name="com.adobe.creativesdk.foundation.internal.base.AdobeTOUHandlerActivity"/>
+        <activity
+            android:theme="@style/com_facebook_activity_theme"
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity"/>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="2.0.0"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.nexstreaming.app.kinemasterfree.firebaseinitprovider"
+            android:initOrder="100"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:exported="false"
+            android:authorities="com.nexstreaming.app.kinemasterfree.mobileadsinitprovider"
+            android:initOrder="100"/>
+        <provider
+            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+            android:exported="false"
+            android:authorities="com.nexstreaming.app.kinemasterfree.MarketingInitProvider"/>
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:exported="false"
+            android:authorities="com.nexstreaming.app.kinemasterfree.FacebookInitProvider"/>
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:exported="false"
+            android:authorities="com.nexstreaming.app.kinemasterfree.crashlyticsinitprovider"
+            android:initOrder="100"/>
+    </application>
+</manifest>

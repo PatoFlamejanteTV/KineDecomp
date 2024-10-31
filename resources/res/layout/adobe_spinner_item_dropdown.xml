@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/adobe_csdk_asset_detail_whiteBackGround"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackground"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+            android:textSize="@dimen/adobe_csdk_actionbar_text_size"
+            android:textColor="@color/list_dropdown_foreground_color"
+            android:gravity="start|center_vertical"
+            android:id="@+id/adobe_csdk_text1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+</FrameLayout>

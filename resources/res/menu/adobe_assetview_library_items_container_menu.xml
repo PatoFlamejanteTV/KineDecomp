@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adobe_library_collection_rename"
+        android:title="@string/adobe_csdk_asset_edit_rename_button"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_csdk_asset_browser_collaborator_menu"
+        android:title="@string/adobe_csdk_collaborator"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_library_collection_share"
+        android:title="@string/adobe_csdk_IDS_ACTION_VIEW_SHARE"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_library_collection_delete"
+        android:title="@string/adobe_csdk_asset_view_edit_fragment_erase_button"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/adobe_library_collection_unsuscribe"
+        android:title="@string/adobe_csdk_asset_view_edit_fragment_unsuscribe_button"
+        app:showAsAction="never"/>
+</menu>

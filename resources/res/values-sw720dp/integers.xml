@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="font_toolbar_title_scale">0</integer>
+    <integer name="mediabrowser_gridview_horizontal_spacing_int">5</integer>
+    <integer name="mediabrowser_item_columns">7</integer>
+    <integer name="optionbar_page_width">92</integer>
+    <integer name="project_gallery_title_maxLines">5</integer>
+</resources>

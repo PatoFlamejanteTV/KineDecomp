@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+        android:textSize="@dimen/adobe_csdk_actionBar_text_size"
+        android:textColor="@color/adobe_csdk_theme_color_dark_text"
+        android:ellipsize="middle"
+        android:id="@+id/adobe_csdk_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:drawablePadding="4dp"/>
+    <RelativeLayout
+        android:id="@+id/adobe_csdk_action_bar_dropdown_arrow"
+        android:background="@drawable/arrow_new_3"
+        android:paddingLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"/>
+</LinearLayout>

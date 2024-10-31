@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="other">%dトラック</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="other">このお試し版の有効期限は %d 日で終了します</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="other">パスワードの安全性が低いです。最小 %1$d 文字で、英数混在で入力してください。</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="other">このプロジェクトからいくつかのオーディオファイルが消えます。</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="other">このプロジェクトからいくつかの画像ファイルが消えます。</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="other">エクスポートする前にそれらを置き換えることを推奨します。</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="other">このプロジェクトからいくつかのビデオファイルが消えます。</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="other">(%d days remaining)</item>
+    </plurals>
+</resources>

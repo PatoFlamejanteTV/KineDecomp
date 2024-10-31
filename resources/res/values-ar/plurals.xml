@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="audiobrowser_track_count">
+        <item quantity="zero">%d مسار</item>
+        <item quantity="one">%d مسار</item>
+        <item quantity="two">%d مسار</item>
+        <item quantity="few">%d مسارات</item>
+        <item quantity="many">%d مسارات</item>
+        <item quantity="other">%d مسارات</item>
+    </plurals>
+    <plurals name="beta_remaining">
+        <item quantity="zero">هذه النسخة التجريبية سوف تنتهي في %d يوم</item>
+        <item quantity="one">هذه النسخة التجريبية سوف تنتهي في %d يوم</item>
+        <item quantity="two">هذه النسخة التجريبية سوف تنتهي في %d يوم</item>
+        <item quantity="few">هذه النسخة التجريبية سوف تنتهي في %d أيام</item>
+        <item quantity="many">هذه النسخة التجريبية سوف تنتهي في %d أيام</item>
+        <item quantity="other">هذه النسخة التجريبية سوف تنتهي في %d أيام</item>
+    </plurals>
+    <plurals name="error_weak_password">
+        <item quantity="zero">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="one">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="two">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="few">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d أحرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="many">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+        <item quantity="other">كلمة المرور ليست قوية بما فيه الكفاية. استخدم %1$d حرف على الأقل ومزيج من الحروف والأرقام.</item>
+    </plurals>
+    <plurals name="missing_audio_from_project">
+        <item quantity="zero">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="one">ملف سمعي مفقود من هذا المشروع في %s.</item>
+        <item quantity="two">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="few">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="many">ملفات سمعية مفقودة من هذا المشروع.</item>
+        <item quantity="other">ملفات سمعية مفقودة من هذا المشروع.</item>
+    </plurals>
+    <plurals name="missing_image_from_project">
+        <item quantity="zero">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="one">ملف صورة مفقود من هذا المشروع في %s.</item>
+        <item quantity="two">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="few">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="many">ملفات الصور مفقودة من هذا المشروع.</item>
+        <item quantity="other">ملفات الصور مفقودة من هذا المشروع.</item>
+    </plurals>
+    <plurals name="missing_media_exporting_message">
+        <item quantity="zero">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="one">يوصى أن يتم استبداله قبل التصدير.</item>
+        <item quantity="two">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="few">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="many">يوصى أن يتم استبدالهم قبل التصدير.</item>
+        <item quantity="other">يوصى أن يتم استبدالهم قبل التصدير.</item>
+    </plurals>
+    <plurals name="missing_video_from_project">
+        <item quantity="zero">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="one">ملف فيديو مفقود من هذا المشروع في %s.</item>
+        <item quantity="two">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="few">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="many">ملفات الفيديو مفقودة من هذا المشروع.</item>
+        <item quantity="other">ملفات الفيديو مفقودة من هذا المشروع.</item>
+    </plurals>
+    <plurals name="sub_days_remaining">
+        <item quantity="zero">(%d days remaining)</item>
+        <item quantity="one">(%d day remaining)</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">(%d days remaining)</item>
+    </plurals>
+</resources>

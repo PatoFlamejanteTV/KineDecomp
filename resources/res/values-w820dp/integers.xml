@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="adobe_csdk_library_collections_num_columns">4</integer>
+    <integer name="adobe_csdk_library_items_color_section_columns">6</integer>
+    <integer name="adobe_csdk_library_items_colortheme_section_columns">3</integer>
+    <integer name="adobe_csdk_library_items_default_columns">4</integer>
+    <integer name="adobe_csdk_library_items_image_section_columns">4</integer>
+</resources>

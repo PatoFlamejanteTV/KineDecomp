@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/adobe_csdk_asset_view_long_click_main_container"
+    android:tag="NORMAL"
+    android:background="#fff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="230dp"
+        android:layout_height="@dimen/adobe_csdk_asset_edit_dialog_fragment_item_title_height"
+        android:layout_marginLeft="@dimen/adobe_csdk_asset_edit_dialog_fragment_margin_left">
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView
+            android:textSize="20dp"
+            android:textColor="@color/adobe_csdk_asset_browser_light_text"
+            android:ellipsize="end"
+            android:id="@+id/adobe_csdk_asset_long_click_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/adobe_csdk_long_click_menu_container"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/adobe_csdk_asset_edit_dialog_fragment_margin_left"
+        android:layout_marginRight="@dimen/adobe_csdk_asset_edit_dialog_fragment_margin_right"
+        android:layout_marginBottom="@dimen/adobe_csdk_asset_edit_dialog_fragment_margin_bottom"/>
+</LinearLayout>

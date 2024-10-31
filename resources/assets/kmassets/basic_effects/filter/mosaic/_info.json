@@ -1,0 +1,27 @@
+{
+  "ratios":["16:9","9:16", "1:1"],
+  "filename": "renderitem.xml",
+  "thumbnail": "asset_icon.png",
+  "label": {
+    "en": "Mosaic",
+    "ar": "فسيفساء",
+    "ko": "모자이크",
+    "pt": "Mosaico",
+    "ja": "モザイク",
+    "fr": "Mosaïque",
+    "zh-CN": "马赛克",
+    "zh-TW": "馬賽克",
+    "zh-HK": "馬賽克",
+    "de": "Mosaik",
+    "ru": "Мозаика",
+    "es": "Mosaico",
+    "hi":"पच्चीकारी",
+    "id":"Mosaik",
+    "it":"Mosaico",
+    "ms":"Mosaic",
+    "th":"โมเสก",
+    "tr":"Mozaik",
+    "vi":"Khảm"
+  },
+  "type": "nex.renderitem"
+}

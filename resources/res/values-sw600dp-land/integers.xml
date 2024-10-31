@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="adobe_csdk_auth_view_height">80</integer>
+</resources>

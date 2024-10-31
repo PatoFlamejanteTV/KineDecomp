@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:color="@color/adobe_csdk_blue_color"/>
+    <item
+        android:state_enabled="false"
+        android:color="@color/adobe_csdk_asset_browser_light_text"/>
+</selector>

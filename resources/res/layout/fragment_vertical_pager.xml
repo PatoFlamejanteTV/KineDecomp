@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.adobe.creativesdk.foundation.internal.utils.photoview.PhotoView
+        android:id="@+id/adobe_csdk_asset_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <include
+        android:id="@+id/adobe_csdk_asset_viewer_no_internet_connection"
+        layout="@layout/asset_viewer_no_internet_connection"/>
+    <include
+        android:id="@+id/adobe_csdk_asset_viewer_no_preview"
+        layout="@layout/asset_viewer_no_preview"/>
+    <ProgressBar
+        android:id="@+id/adobe_csdk_asset_image_progressbar_new"
+        android:background="@drawable/adobe_csdk_spinner_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

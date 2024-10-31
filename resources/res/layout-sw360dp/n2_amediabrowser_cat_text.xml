@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/selector_media_browser"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/audio_browser_item_height">
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/audio_cat_genre_sel"/>
+    <TextView
+        android:textColor="@color/n2_amediabrowser_text_color"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/sfx"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text=""
+        android:maxLines="2"
+        android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    style="@style/FocusableViewSelectableBg">
+    <ImageView
+        android:id="@+id/adobe_csdk_notification_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/ic_notif_white_48dp"/>
+    <TextView
+        android:textSize="@dimen/folder_cell_count_size"
+        android:textColor="@color/adobe_csdk_actionbar_background"
+        android:gravity="center"
+        android:layout_gravity="top|right"
+        android:id="@+id/adobe_csdk_notification_count"
+        android:background="@drawable/adobe_notification_count_shape"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"/>
+</RelativeLayout>

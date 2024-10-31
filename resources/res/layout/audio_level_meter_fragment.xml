@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/levelContainer"
+    android:tag="layout/audio_level_meter_fragment_0"
+    android:background="@color/pedit_button_color_nor"
+    android:paddingLeft="14.5dp"
+    android:paddingTop="20dp"
+    android:paddingRight="14.5dp"
+    android:paddingBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.nexstreaming.kinemaster.ui.projectedit.AudioLevelMeter
+        android:id="@+id/left"
+        android:tag="binding_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:interpolator="@android:anim/decelerate_interpolator"
+        app:label="L"
+        app:labelColor="#b6b6b6"
+        app:labelPadding="8dp"
+        app:labelSize="10dp"/>
+    <com.nexstreaming.kinemaster.ui.projectedit.AudioLevelMeter
+        android:id="@+id/right"
+        android:tag="binding_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        app:interpolator="@android:anim/decelerate_interpolator"
+        app:label="R"
+        app:labelColor="#b6b6b6"
+        app:labelPadding="8dp"
+        app:labelSize="10dp"/>
+</LinearLayout>

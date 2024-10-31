@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/adobe_csdk_listview_background_shape">
+    <corners
+        android:topLeftRadius="6dp"
+        android:bottomLeftRadius="6dp"/>
+    <solid android:color="#5b656c"/>
+</shape>
